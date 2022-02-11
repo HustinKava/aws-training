@@ -20,7 +20,9 @@ It has a public and private key. The public key is held by AWS and the private k
 
 Click download key pair -> launch instances
 
+DELETING AN INSTANCE:
 
+Make sure the box is checked and click instance state -> terminate instance
 
 
 
