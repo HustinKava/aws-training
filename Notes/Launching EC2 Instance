@@ -1,0 +1,26 @@
+Launching an Amazon EC2 Instance
+
+all services -> compute -> EC2 -> instances -> launch instance
+
+From here you can pick which server you want. There is also a market place and community configured instances.
+
+next -> 
+
+From here you can choose how many instances you want
+
+add storage -> next
+
+Now we can configure the security group, name your group and apply a description
+
+review and launch -> launch
+
+Then we have to create a key pair. This is used to actually access your instance.
+
+It has a public and private key. The public key is held by AWS and the private key is something that you download to authenticate.
+
+Click download key pair -> launch instances
+
+
+
+
+
