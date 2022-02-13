@@ -106,3 +106,4 @@ dist
 # AWS key pair
 London-HK.pem
 Singapore-HK.pem
+aws.txt
