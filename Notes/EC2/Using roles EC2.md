@@ -1,4 +1,4 @@
-![](./Images/EC2RolesDiagram.PNG)
+![](../Images/EC2RolesDiagram.PNG)
 
 Let's say we have an EC2 instance running in a subnet and we want to connect to the S3 bucket. We can assign it an IAM role with a policy to deploy to the S3 bucket.
 

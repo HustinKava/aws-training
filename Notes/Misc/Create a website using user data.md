@@ -39,4 +39,4 @@ security groups -> select your security group to edit -> inbound rules -> edit i
 
 Go back to instances, check your instance, in the description there will be a public ipv4 address, copy it. Open a new tab and paste it in the address bar
 
-![](./Images/ApacheConnected.PNG)
+![](../Images/ApacheConnected.PNG)

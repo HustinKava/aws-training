@@ -10,7 +10,7 @@ Create a new key pair and download it. Launch the instance
 
 Switch back to your region (N. Virginia for me)
 
-![](./Images/EC2Connect.PNG)
+![](../Images/EC2Connect.PNG)
 
 Make sure the drop box is selected and then click connect -> SSH client
 
@@ -23,7 +23,7 @@ Connect to your instance using its Public DNS:
 Example:
  ssh -i "London-HK.pem" ec2-user@ec2-18-233-166-13.compute-1.amazonaws.com
 
- ![](./Images/EC2Connected.PNG)
+ ![](../Images/EC2Connected.PNG)
 
 To run an update we can type:
 

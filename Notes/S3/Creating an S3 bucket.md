@@ -15,7 +15,7 @@ The object must contain the following:
 
 You can also connect your EC2 instances using the internet gateway to the S3 bucket (see "Using roles EC2.md")
 
-![](./Images/S3BucketDiagram.PNG)
+![](../Images/S3BucketDiagram.PNG)
 
 Creating an S3 bucket:
 

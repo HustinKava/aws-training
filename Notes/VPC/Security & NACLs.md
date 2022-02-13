@@ -14,10 +14,10 @@ You create security groups for each of your VPCs
 
 Security Groups -> 
 
-![](./Images/SecurityGroups.PNG)
+![](../Images/SecurityGroups.PNG)
 
 The source is set to allow the passing of data only within that security group. For outbound you can send traffic by default anywhere.
 
-![](./Images/StatefulVsStateless.PNG)
+![](../Images/StatefulVsStateless.PNG)
 
 Example of stateful vs stateless firewalls
