@@ -27,4 +27,14 @@ For example you can set a CPU threshold and if the system exceeds it, you can tr
 
  ![](../Images/ASGLaunched.PNG)
 
+ To test this we can go back to our instances (remember we created 3), select 2 and hit terminate
+
+ ![](../Images/Reboot.PNG)
+
+ The ASG noticed that we terminated 2 instances and has booted up another 2!
+
+ ![](../Images/ASGInstances.PNG)
+
+ We can see here that the instances have started up again.
+
  
