@@ -20,3 +20,23 @@ You can also connect your EC2 instances using the internet gateway to the S3 buc
 Creating an S3 bucket:
 
 Services -> storage -> S3 -> Create bucket (s3-WhateverNameYouWant) -> next -> enable versioning -> next -> create bucket
+
+Disable public blocking -> go to permissions and create a bucket policy to define who can access it.
+
+"bucket-policy-public.json"
+
+Copy the object from that file and paste it into the s3 bucket policy.
+
+```
+{"Version": "2008-10-17",
+    "Statement": [{"Sid": "AllowPublicRead",
+    "Effect": "Allow",
+    "Principal": {
+    "AWS": "*"
+    },
+    "Action": "s3:GetObject",
+    "Resource": "arn:aws:s3:::BUCKETNAME/*"
+    }
+]
+}
+```
