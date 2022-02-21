@@ -3,7 +3,7 @@ Services -> Developer Tools -> CodeCommit -> Repository -> Create Repo
 - repo name (MySourceRepository)
 
 Clone the repo
-git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/MySoruceRepo
+git clone https://git-codecommit.us-east-1.amazonaws.com/v1/repos/MySourceRepo
 
 In order to be able to clone the repo you need to gram your IAM Git credentials
 
