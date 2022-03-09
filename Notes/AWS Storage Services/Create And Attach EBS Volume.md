@@ -16,7 +16,7 @@ Security groups -> select Web-Access and create an inbound rule:
 
 Add rule -> allow RDP (remote desktop protocol) -> set the address as 0.0.0.0 -> save rules.
 
-Instances -> connect -> get password -> upload key pair file -> decrypt password
+Instances -> connect -> RDP client -> get password -> upload key pair file -> decrypt password
 
 Copy the public DNS name.
 
